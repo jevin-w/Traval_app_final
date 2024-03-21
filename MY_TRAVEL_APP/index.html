@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">Travel</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+      <li><a href="#home" class="home-active">Home</a></li>
+      <li><a href="#places">Places</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </header>
+
+  <section class="home swiper" id="home">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide container">
+        <img src="images/home1.jpg" alt="">
+        <div class="home-text">
+          <span>Discover now</span>
+          <h1>Explore the <br> Beauty of Paris</h1>
+          <a href="#" class="btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide container">
+        <img src="images/home2.jpg" alt="">
+        <div class="home-text">
+          <span>Discover now</span>
+          <h1>Explore the <br> Beauty of Turkey</h1>
+          <a href="#" class="btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide container">
+        <img src="images/home3.jpg" alt="">
+        <div class="home-text">
+          <span>Discover now</span>
+          <h1>Explore the <br> Beauty of Santorini</h1>
+          <a href="#" class="btn">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <section class="places" id="places">
+    <div class="heading">
+      <h1>Find the most <br>attractive places</h1>
+    </div>
+    <div class="place-container">
+
+      <!-- Tour search
+      <section class="Tour search">
+        <div class="container"> 
+          
+
+      <form class="tour-search-form">
+
+        <div class="input-wrapper">
+          <label for="destination" class="input-label"></label>
+
+          <input type="text" name="destination" id="destination" required placeholder="Enter 
+          Destination"
+            class="input-field">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="people" class="input-label">Pax Number</label>
+
+          <input type="text" name="people" id="people" required placeholder="No.of People"
+            class="input-field">
+          Destination"
+            class="input-field">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="checkin" class="input-label">Checkin Date</label>
+
+          <input type="date" name="checkin" id="checkin" required class="input-field">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="checkout" class="input-label">Checkout Date</label>
+
+          <input type="date" name="checkout" id="checkout" required class="input-field">
+        </div>
+
+        <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+        
+
+      </form>   
+
+        </div>
+         
+        </section>
+
+      </article>
+    </main> -->
+
+
+      <!-- Place 1 -->
+      <div class="place-container">
+          <div class="box">
+              <div class="place-img">
+                  <img src="images/place1.jpg" alt="">
+        </div>
+        <div class="place-text">
+            <h2><% dest001.name %></h2>
+          </div>
+          <i class='bx bx-right-arrow-alt place-icon'></i>
+        </div>    
+
+          <!-- <p>Paris is the capital and most populous city of France, with an estimated population of 2,165,423 residents as of 2020,
+             in an area of more than 105 square kilometres (41 square miles).</p>   -->
+        <!-- </div>
+
+      <!-Place 2 -->
+      <div class="box">
+        <div class="place-img">
+          <img src="images/place2.jpg" alt="">
+        </div>
+
+        <div class="place-text">
+          <h2>Turkey</h2>
+
+          <!-- <p>Turkey is a nation straddling eastern Europe and western Asia with cultural connections to ancient Greek, 
+            Persian, Roman, Byzantine and Ottoman empires.</p> -->
+
+          </div>
+        <box-icon name='right-arrow-alt place-icon'></box-icon>
+      </div>
+
+      <!-- Place 3 -->
+      <div class="box">
+        <div class="place-img">
+          <img src="images/place3.jpg" alt="">
+        </div>
+        <div class="place-text">
+          <h2>Santorini</h2>
+
+          <!-- <p>Santorini is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, 
+            forever shaping its rugged landscape.</p> -->
+
+        </div>
+        <box-icon name='right-arrow-alt place-icon'></box-icon>
+      </div>
+    </div>
+  </section>
+
+  <!-- video -->
+
+  <section class="video" id="videos">
+    <div class="heading">
+      <h1>Watch the most <br>attractive places</h1>
+    </div>
+    <div class="video-container">
+      <video src="video.mp4" muted autoplay loop></video>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-text">
+      <h1>We are the largest trip <br> organizer here</h1>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+    <div class="about-img">
+      <img src="images/about.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="footer-box">
+      <h2>Travel</h2>
+      <div class="social">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-tiktok'></i></a>
+      </div>
+    </div>
+    <div class="footer-box">
+      <h3>Service</h3>
+      <ul>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Help & Support</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h3>Offices</h3>
+      <ul>
+        <li><a href="#">Mauritius</a></li>
+        <li><a href="#">United States</a></li>
+        <li><a href="#">Italy</a></li>
+        <li><a href="#">China</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h3>Contact Us</h3>
+      <ul>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Our Blog</a></li>
+        <li><a href="#">Customers</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <p>Jevin All Right Reserved</p>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
